@@ -22,10 +22,14 @@ a confidence score based on learned probabilities.
 
 ---
 
-##  Model Output Visualization
+## Model Output Visualization
 
-The chart below shows the relative probability assigned by the ML model
-to each number (1–37) for the next draw.
+The visualization shows the **relative probability distribution** produced by the
+machine learning model for numbers **1–37** in the next lottery draw.
+
+A **dashed horizontal line** represents the **average probability threshold**.
+Numbers whose bars extend **above this line** are considered **above-average
+according to the model**, indicating stronger alignment with learned historical patterns.
 
 ![Probability Distribution](probabilities.png)
 
