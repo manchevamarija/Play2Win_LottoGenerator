@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 BASE_URL = "https://loto.mk/Results"
-YEARS = [2022, 2023, 2024, 2025]
+YEARS = [2022, 2023, 2024, 2025, 2026]
 MAX_KOLO = 104
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
