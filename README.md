@@ -29,6 +29,25 @@ to each number (1–37) for the next draw.
 
 ![Probability Distribution](probabilities.png)
 
+---
+
+##  Data Collection
+
+Historical lottery draw data is collected using **web scraping**.
+
+The dataset contains official draw results from **2022 to 2026**, which are
+automatically extracted and parsed by a separate scraping script and stored
+in `data.txt`.
+
+Only validated draws with exactly **7 numbers per draw** are included in
+the dataset before being used for training the machine learning model.
+
+This ensures:
+- Consistent input format
+- Reproducible experiments
+- Clear separation between data collection and ML modeling
+
+
 ## Project Structure
 
 ```text
